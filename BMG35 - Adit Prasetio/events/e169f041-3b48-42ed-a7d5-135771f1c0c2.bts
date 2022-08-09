@@ -1,0 +1,7 @@
+PART_CLICKED {
+	GameOver()
+}
+
+PART_TOUCH_ENTITY_BEGIN {
+	GameOver()
+}

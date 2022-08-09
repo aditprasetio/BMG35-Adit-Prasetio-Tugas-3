@@ -1,0 +1,89 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": -37.377853393555,
+        "y": 1.0538654708862,
+        "z": 34.489398956299
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": -36.895,
+        "y": 1.0538664245605,
+        "z": 33.891067504883
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "faca8730-73df-4be3-a4c1-bf5abc3e57d6"
+              },
+              "pos": {
+                "x": 670,
+                "y": 350
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "79a8f2e8-bac5-4b1b-b209-b37ba0bd0733"
+            },
+            "type": "Trigger_GameOver"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "faca8730-73df-4be3-a4c1-bf5abc3e57d6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "ebdc50a4-2c6a-41b3-8878-de22e686ce49"
+            }
+          },
+          "type": "Trigger_GameOver"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "305de9674557085416650a3b6e463b17",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "e2ee380a5297568436de0e0c45ca6633",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
